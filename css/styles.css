@@ -3,7 +3,7 @@
   --color-secondary: #767a89;
   --color-body: #f1f5f8;
   --color-white: #fff;
-  --color-black: #000;
+  --color-black: #222;
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
   --letter-spacing: 1.6px;
@@ -19,6 +19,7 @@ html {
 body {
   color: var(--color-body);
   font-family: var(--font-primary);
+  background: var(--color-body);
 }
 h2,
 h4 {
@@ -28,14 +29,14 @@ h4 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3.2rem;
 }
 h4 {
   font-size: 1.4rem;
 }
 @media screen and (min-width: 1024px) {
   h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
   h4 {
     font-size: 1.6rem;
@@ -74,6 +75,7 @@ h4 {
   background: #fff;
   box-shadow: 0 1px 15px #f1f5f8;
   font-size: 1.6rem;
+  height: 4.8rem;
 }
 .nav__body {
   align-items: center;
@@ -101,5 +103,22 @@ h4 {
   transition: color 0.3s;
 }
 .nav__item > a:hover {
+  color: var(--color-primary);
+}
+
+/* Container */
+main {
+  height: calc(100vh - 4.8rem);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h2 {
+  background: var(--color-black);
+  padding: 1.6rem;
+  margin-bottom: 4rem;
+  border-radius: 5px;
+}
+.color {
   color: var(--color-primary);
 }
