@@ -1,0 +1,24 @@
+{
+  "name": "colorFlipper",
+  "version": "1.0.0",
+  "description": "A Simple JavaScript project created by following the tutorial of freeCodeCamp.org",
+  "default": "src/index.html",
+  "dependencies": {
+    "parcel": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahidt1/colorFIipper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahidt1/colorFIipper/issues"
+  },
+  "homepage": "https://github.com/rahidt1/colorFIipper#readme"
+}
